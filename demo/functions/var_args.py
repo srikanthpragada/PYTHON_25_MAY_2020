@@ -1,4 +1,4 @@
-def fun(*names):  # Varying argument
+def fun(message="", *names):  # Varying argument
     print(type(names))
 
 
