@@ -12,3 +12,6 @@ def operation(a, b, process):
 
 print(operation(10, 20, add))
 print(operation(10, 20, mul))
+
+print(operation(10, 20, lambda a, b: a - b))
+print(operation(10, 20, lambda a, b: a ** b))
