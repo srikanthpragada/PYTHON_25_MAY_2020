@@ -22,7 +22,7 @@ def isprime(n):
         return True
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':   # Module is invoked as script
     print(iseven(11), isprime(25))
-else:
+else:   # Module is being imported
     print('Importing ', __name__)
