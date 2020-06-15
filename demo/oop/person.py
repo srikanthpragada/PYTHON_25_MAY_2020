@@ -4,7 +4,8 @@ class Person:
         self.__name = name  # private attribute
         self.__age = age
 
-    def get_type(self):
+    @property
+    def type(self):
         if self.__age < 20:
             return "Young"
         elif self.__age <= 50:
@@ -19,5 +20,5 @@ class Person:
 p = Person("Bill", 60)
 p._Person__age = 50  # Private attribute is accessed from outside
 print(p.__dict__)
-print(p.get_type())
+print(p.type)
 print(p)

@@ -12,7 +12,8 @@ class Product:
         self.price = price
         self.qoh = qoh
 
-    def get_net_price(self):
+    @property
+    def net_price(self):
         return self.price + self.price * Product.tax_rate
 
     def purchase(self, qty):
@@ -26,6 +27,6 @@ Product.set_tax_rate(0.15)  # Call static method
 p1 = Product("P1", 10000, 20)
 # p2 = Product("P2", 4500)
 # p2.purchase(10)
-print(p1.get_net_price())
+print(p1.net_price)
 
 
