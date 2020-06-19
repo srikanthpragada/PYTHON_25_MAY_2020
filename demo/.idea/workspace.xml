@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cda6f924-29b9-46d3-9cec-cb5e6ac51fa2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/exhand/sum_of_numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exhand/time.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exhand/demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/exhand/demo1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,20 +33,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/oop/mi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/exhand" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\classroom\may25\demo\mylib" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\classroom\may25\demo\exhand" />
       <recent name="C:\classroom\may25\demo\oop\mi" />
       <recent name="C:\classroom\may25\demo\functions" />
       <recent name="C:\classroom\may25\demo\assignments" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\classroom\may25\demo\mylib" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.demo1">
+  <component name="RunManager" selected="Python.time">
     <configuration name="abstract" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sum_of_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,11 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/mi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exhand" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/mi/demo3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exhand/sum_of_numbers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="time" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,11 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/mi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exhand" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/mi/demo4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exhand/time.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.time" />
+        <item itemvalue="Python.sum_of_numbers" />
         <item itemvalue="Python.demo1" />
         <item itemvalue="Python.abstract" />
         <item itemvalue="Python.call_both" />
-        <item itemvalue="Python.demo4" />
-        <item itemvalue="Python.demo3" />
       </list>
     </recent_temporary>
   </component>
@@ -175,25 +177,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1499" height="132" key="GridCell.Tab.0.bottom" timestamp="1592490407577">
+    <state width="1499" height="106" key="GridCell.Tab.0.bottom" timestamp="1592574804545">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1499" height="132" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592490407577" />
-    <state width="1499" height="132" key="GridCell.Tab.0.center" timestamp="1592490407577">
+    <state width="1499" height="106" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592574804545" />
+    <state width="1499" height="106" key="GridCell.Tab.0.center" timestamp="1592574804545">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1499" height="132" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592490407577" />
-    <state width="1499" height="132" key="GridCell.Tab.0.left" timestamp="1592490407577">
+    <state width="1499" height="106" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592574804545" />
+    <state width="1499" height="106" key="GridCell.Tab.0.left" timestamp="1592574804544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1499" height="132" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592490407577" />
-    <state width="1499" height="132" key="GridCell.Tab.0.right" timestamp="1592490407577">
+    <state width="1499" height="106" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592574804544" />
+    <state width="1499" height="106" key="GridCell.Tab.0.right" timestamp="1592574804545">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1499" height="132" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592490407577" />
+    <state width="1499" height="106" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592574804545" />
     <state x="0" y="0" width="940" height="824" key="find.popup" timestamp="1592489343768">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="0" width="940" height="824" key="find.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592489343768" />
+    <state x="177" y="-2" width="1177" height="1976" key="search.everywhere.popup" timestamp="1592574513007">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="177" y="-2" width="1177" height="1976" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592574513007" />
   </component>
 </project>
