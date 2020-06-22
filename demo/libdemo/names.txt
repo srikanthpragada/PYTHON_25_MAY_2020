@@ -1,0 +1,7 @@
+Gosling
+Anders
+Rossum
+Dennis
+Larry
+Steve
+James
