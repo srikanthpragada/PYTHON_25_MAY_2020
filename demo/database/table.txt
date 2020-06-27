@@ -1,0 +1,10 @@
+CREATE TABLE employees (
+    empid    INTEGER      PRIMARY KEY AUTOINCREMENT,
+    fullname VARCHAR (30) NOT NULL,
+    job      VARCHAR (10),
+    salary   INTEGER (8)
+);
+
+insert into employees(fullname,job,salary) values('Larry Ellison','CEO',100000)
+insert into employees(fullname,job,salary) values('Joe Stanger','SPRO',500000)
+insert into employees(fullname,job,salary) values('Kevin Loney','DBA',700000)
