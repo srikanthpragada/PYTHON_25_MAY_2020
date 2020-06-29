@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cda6f924-29b9-46d3-9cec-cb5e6ac51fa2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/add_employee.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/list_employees.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/table.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/update_salary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cda6f924-29b9-46d3-9cec-cb5e6ac51fa2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
