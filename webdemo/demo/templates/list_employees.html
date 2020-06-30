@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employees</title>
+    <style>
+        body {
+           font-family : verdana;
+           font-size : 12pt;
+        }
+    </style>
+</head>
+<body>
+<h1>Employees</h1>
+<table width="100%">
+    <tr style="background-color:navy;color:white;font-weight:bold">
+        <th>Id</th>
+        <th>Fullname</th>
+        <th>Job</th>
+        <th>Salary</th>
+    </tr>
+
+    {% for emp in employees %}
+    <tr>
+        <td>{{emp.0}}</td>
+        <td>{{emp.1}}</td>
+        <td>{{emp.2}}</td>
+        <td style="text-align:right">{{emp.3}}</td>
+    </tr>
+    {% endfor %}
+
+</table>
+
+</body>
+</html>
