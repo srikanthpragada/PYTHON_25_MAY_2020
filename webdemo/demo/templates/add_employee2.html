@@ -5,21 +5,13 @@
     <title>Add Employee</title>
 </head>
 <body>
-<h1>Add Employee</h1>
+<h1>Add Employee With Form</h1>
 
 <form method="post">
     {% csrf_token %}
-    Fullname
-    <br/>
-    <input type="text" name="fullname"  required />
-    <p></p>
-    Job
-    <br/>
-    <input type="text" name="job" required />
-    <p></p>
-    Salary
-    <br/>
-    <input type="number" name="salary" required />
+    <table>
+        {{form}}
+    </table>
     <p></p>
     <input type="submit" value="Add Employee" />
 </form>
