@@ -17,6 +17,7 @@ def book_list(request):
     books = Book.objects.all()
     return render(request, 'list.html', {'books': books})
 
+
 # /books/delete/10
 def book_delete(request, id):
     try:
@@ -35,18 +36,19 @@ def book_add(request):
         form = BookForm()
         return render(request, 'add.html', {'form': form})
     else:  # POST
-        form = BookForm(request.POST)   # bind form with post data
+        form = BookForm(request.POST)  # bind form with post data
         if form.is_valid():
             form.save()  # Add book to table
             return redirect("/books/list")
         else:
             return render(request, 'add.html', {'form': form})
 
+
 # /books/edit/10
 def book_edit(request, id):
     if request.method == "GET":
         try:
-            book = Book.objects.get(id=id)   # Take data from DB
+            book = Book.objects.get(id=id)  # Take data from DB
             form = BookForm(instance=book)
             return render(request, 'edit.html', {'form': form})
         except ObjectDoesNotExist:
