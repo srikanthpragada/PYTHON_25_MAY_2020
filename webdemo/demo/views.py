@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from .forms import EmployeeForm
 import sqlite3
 import requests
+import datetime
 
 
 def index(request):
@@ -75,6 +76,13 @@ def add_employee2(request):
 
             con.close()
             return render(request, 'add_employee2.html',
-                           {'form': f, 'message' : msg})
+                          {'form': f, 'message': msg})
         else:
             return render(request, 'add_employee2.html', {'form': f})
+
+
+def ajax_demo(request):
+    return render(request, 'ajax_demo.html')
+
+def send_datetime(request):
+    return HttpResponse(str(datetime.datetime.now()))

@@ -7,7 +7,11 @@
     <script>
         function get_date_time()
         {
-        
+            // URL, params, callback
+            $.get("/demo/datetime",null,show_date_time);  // Ajax Request
+        }
+        function show_date_time(response) {
+           $("#datetime").html(response)
         }
     </script>
 </head>
