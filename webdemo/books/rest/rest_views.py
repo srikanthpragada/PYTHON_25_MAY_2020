@@ -35,10 +35,10 @@ def process_one_book(request, id):
         return Response(status=404)  # not found
 
     if request.method == "GET":
-        serializer = BookSerializer(book)
+        serializer = BookSerializer(book)  #Object to JSON
         return Response(serializer.data)
     elif request.method == "DELETE":  # DELETE
-        book.delete()
+        book.delete() # Delete from Database
         return Response(status=204)  # No data
     else:  # PUT
         price = request.POST['price']
